@@ -1,8 +1,11 @@
 package com.shengsiyuan.test1222.bean;
 
+import java.util.Date;
+
 public class EmpVo {
     private String name;
     private Integer id;
+    private Date date;
 
     public Integer getId() {
         return id;
